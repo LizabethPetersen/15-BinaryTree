@@ -5,7 +5,6 @@ const preOrderTraversal = (rootNode, callback) => {
   callback(rootNode.value);
   preOrderTraversal(rootNode.left, callback);
   preOrderTraversal(rootNode.right, callback);
-  // callback(rootNode.value);
   return undefined;
 };
 

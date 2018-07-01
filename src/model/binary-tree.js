@@ -30,8 +30,4 @@ seven.right = nine;
 
 const binaryTree = new BinaryTree(one);
 
-console.log(binaryTree, 'Not Pretty!');
-
-console.log(JSON.stringify(binaryTree, null, 2));
-
 export default binaryTree;
