@@ -14,11 +14,6 @@
     "build": "babel src -d build",
     "start": "npm run build && node index.js"
   },
-  "jest": {
-    "setupFiles": [
-      "<rootDir>/src/__test__/lib/test.env.js"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LizabethPetersen/15-BinaryTree.git"
